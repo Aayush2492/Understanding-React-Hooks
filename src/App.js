@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>HELLo world </h1>
-      <ClassCounter />
+      {/* <ClassCounter /> */}
       <HookCounter />
     </div>
   );
