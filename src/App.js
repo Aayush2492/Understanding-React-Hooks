@@ -5,6 +5,8 @@ import ClassCounter from "./components/useState hook/ClassCounter";
 import HookCounter from "./components/useState hook/HookCounter";
 import HookWithObject from "./components/useState hook/HookWithObject";
 import HookWithArray from "./components/useState hook/HookWithArray";
+import ClassComponentEffect from "./components/useEffect Hook/ClassCounterEffect";
+import HookAfterRender from "./components/useEffect Hook/HookAfterRender";
 
 const App = () => {
   return (
@@ -13,7 +15,9 @@ const App = () => {
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
       {/* <HookWithObject /> */}
-      <HookWithArray />
+      {/* <HookWithArray /> */}
+      <ClassComponentEffect />
+      <HookAfterRender />
     </div>
   );
 };
