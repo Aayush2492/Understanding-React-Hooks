@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 
-import ClassCounter from "./components/ClassCounter";
-import HookCounter from "./components/HookCounter";
-import HookWithObject from "./components/HookWithObject";
-import HookWithArray from "./components/HookWithArray";
+import ClassCounter from "./components/useState hook/ClassCounter";
+import HookCounter from "./components/useState hook/HookCounter";
+import HookWithObject from "./components/useState hook/HookWithObject";
+import HookWithArray from "./components/useState hook/HookWithArray";
 
 const App = () => {
   return (
