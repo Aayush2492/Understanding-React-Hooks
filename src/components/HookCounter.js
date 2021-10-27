@@ -12,7 +12,9 @@ function HookCounter() {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Count: {count}</button>
+      <button onClick={() => setCount({ count: count + 1 })}>
+        Count: {count}
+      </button>
       <button onClick={incrementCountByFive}>increment By Five</button>
     </div>
   );
