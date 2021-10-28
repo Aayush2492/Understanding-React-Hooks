@@ -10,7 +10,6 @@ const App = () => {
 
       <ClassCounter />
       <HookClassCounter />
-      <h1>Ok buddy</h1>
     </div>
   );
 };
