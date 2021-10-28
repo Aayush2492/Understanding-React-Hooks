@@ -10,6 +10,7 @@ import HookAfterRender from "./components/useEffect Hook/HookAfterRender";
 import ConditionEffectHook from "./components/useEffect Hook/HookConditionalEffect";
 import ClassMouseEvent from "./components/useEffect Hook/ClassMouseEvent";
 import HookMouseEvent from "./components/useEffect Hook/HookMouseEvent";
+import HookCleanUp from "./components/useEffect Hook/HookCleanUp";
 
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
       {/* <ClassComponentEffect />
       <HookAfterRender /> */}
       {/* <ConditionEffectHook /> */}
-      <ClassMouseEvent />
-      <HookMouseEvent />
+      {/* <ClassMouseEvent />
+      <HookMouseEvent /> */}
+      <HookCleanUp />
     </div>
   );
 };
